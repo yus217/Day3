@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuecheng.day3.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter your name"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="298dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnfunction"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="73dp"
+        android:onClick="tbtnFunction"
+        android:text="ToggleButton"
+        android:textOff="Show"
+        android:textOn="Hide"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="451dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+</android.support.constraint.ConstraintLayout>
